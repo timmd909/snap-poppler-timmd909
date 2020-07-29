@@ -9,6 +9,12 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
 parts:
+  poppler-data:
+    plugin: make
+    source: https://gitlab.freedesktop.org/poppler/poppler-data.git
+    make-parameters:
+      - prefix=/usr
+
   poppler:
     plugin: cmake
     source: https://gitlab.freedesktop.org/poppler/poppler.git
@@ -29,7 +35,6 @@ parts:
       - libpng16-16
       - libstdc++6
       - libtiff-tools
-      - poppler-data  # This may be a problem and may need to be built manually
     build-packages:
       - build-essential
       - cmake
