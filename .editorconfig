@@ -1,0 +1,11 @@
+# top-most EditorConfig file
+root = true
+
+# Settings for all files for now. This is gonna be a lot of YAML from
+# what I've seen in the tutorial.
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
