@@ -34,6 +34,7 @@ parts:
       - build-essential
       - cmake
       - g++
+      - libboost-all-dev
       - libcairo2-dev
       - libfontconfig1-dev
       - libfreetype6-dev
@@ -41,5 +42,6 @@ parts:
       - libnss3-dev
       - libopenjp2-7-dev
       - libtiff-dev
+      - libtool
       - make
       - pkgconf
