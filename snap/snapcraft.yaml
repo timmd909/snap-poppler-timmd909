@@ -8,6 +8,38 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
+# -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- #
+
+apps:
+  pdfattach:
+    command: bin/pdfattach
+  pdffonts:
+    command: bin/pdffonts
+  pdfinfo:
+    command: bin/pdfinfo
+  pdfsig:
+    command: bin/pdfsig
+  pdftohtml:
+    command: bin/pdftops
+  pdftops:
+    command: bin/pdftops
+  pdfunite:
+    command: bin/pdfunite
+  pdfdetach:
+    command: bin/pdfdetach
+  pdfimages:
+    command: bin/pdfimages
+  pdfseparate:
+    command: bin/pdfseparate
+  pdftocairo:
+    command: bin/pdftocairo
+  pdftoppm:
+    command: bin/pdftoppm
+  pdftotext:
+    command: bin/pdftotext
+
+# -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- #
+
 parts:
   poppler-data:
     plugin: make
