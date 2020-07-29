@@ -29,6 +29,7 @@ parts:
       - libpng16-16
       - libstdc++6
       - libtiff-tools
+      - poppler-data  # This may be a problem and may need to be built manually
     build-packages:
       - build-essential
       - cmake
