@@ -5,8 +5,10 @@ summary: poppler v.90.1 release July 11, 2020 # 79 char long summary
 description: |
   Snap version of the latest poppler for use with legacy Ubuntu servers
 
+# grade: stable # must be 'stable' to release into candidate/stable channels
 grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+# confinement: strict
+confinement: classic
 
 # -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- #
 
