@@ -1,6 +1,6 @@
 name: poppler-utils-timmd909 # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
-version: '0.2' # just for humans
+version: '1.0' # just for humans
 summary: poppler v.90.1 release July 11, 2020 # 79 char long summary
 description: |
   Snap version of the latest poppler for use with legacy Ubuntu servers.
@@ -13,7 +13,6 @@ description: |
 
 # grade: devel
 grade: stable # must be 'stable' to release into candidate/stable channels
-# confinement: strict
 confinement: classic
 
 # -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- #
